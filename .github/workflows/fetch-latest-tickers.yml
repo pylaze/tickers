@@ -38,5 +38,5 @@ jobs:
           git config user.name pylaze-bot
           git config user.email pylaze@gmail.com
           git add .
-          git commit -m "refresh ticker data"
+          git commit -m "auto refresh ticker data"
           git push
