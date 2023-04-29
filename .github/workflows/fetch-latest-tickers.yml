@@ -2,7 +2,7 @@ name: Fetch Latest Ticker Data
 
 on:
   schedule:
-    - cron: "0 0 * * 6"
+    - cron: "0 0 * * sat"
   workflow_dispatch:
 
 jobs:
